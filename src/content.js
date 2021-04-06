@@ -69,7 +69,7 @@ export default function Content() {
                     <div style={{ width: '40%' }}>
                         <div style={{ width: '100%' }}>
                             <div style={{ padding: '40px 100px 40px 100px' }}>
-                                <div style={{ height: '350px', width: '350px' }}>
+                                <div style={{ height: '300px', width: '300px' }}>
                                     <img src='https://gp-assets-1.growthplug.com/website_files/2020/11/20/2034032.png' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ export default function Content() {
                     <div style={{ width: '40%' }}>
                         <div style={{ width: '100%' }}>
                             <div style={{ padding: '40px 100px 40px 100px' }}>
-                                <div style={{ height: '350px', width: '350px' }}>
+                                <div style={{ height: '300px', width: '300px' }}>
                                     <img src='https://gp-assets-1.growthplug.com/website_files/2020/12/18/Dr._Ling_Li.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 </div>
                             </div>
