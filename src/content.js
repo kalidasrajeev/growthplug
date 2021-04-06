@@ -206,7 +206,7 @@ export default function Content() {
             </div>
 
 
-            <div style={{ backgroundColor: '#f8f4ef', marginTop: '80px', fontFamily: 'poppins' }}>
+            <div style={{ backgroundColor: '#f8f4ef', marginTop: '80px', fontFamily: 'poppins',paddingBottom:'80px' }}>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '80px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500' }}>WE ARE HERE TO HELP YOU</div></div>
@@ -314,8 +314,9 @@ export default function Content() {
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <div class="parallax" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1572343747798-b0f306c1ed49?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTUwfHxicmljayUyMGJ1aWxkaW5nc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=60)` }}>
+            <div class="parallax" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1572343747798-b0f306c1ed49?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTUwfHxicmljayUyMGJ1aWxkaW5nc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=60)` }}>
                     <div class='parallaxChild'>
                         <div style={{ width: '30%' }}>
 
@@ -331,7 +332,6 @@ export default function Content() {
                         </div>
                     </div>
                 </div>
-            </div>
 
             <div style={{ display: 'flex' }}>
                 <div style={{ width: '20%' }}>
@@ -504,7 +504,6 @@ export default function Content() {
                     <div style={{ alignSelf: 'center', margin: '10px', fontSize: '14px' }}>
                         © Copyright 2021 GrowthPlug, Inc
                    </div>
-
                 </div>
             </div>
         </div>

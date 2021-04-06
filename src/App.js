@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './navbar';
 import Content from './content';
 import ContentMob from './contentMob';
+import NavMob from './navMob';
 import { useMediaQuery } from 'react-responsive';
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
 
       { isMobile &&
         <div>
+          <NavMob/>
           <ContentMob />
         </div>
       }

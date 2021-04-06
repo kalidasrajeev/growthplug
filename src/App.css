@@ -20,6 +20,19 @@ body
   font-family: poppins;
 }
 
+.navContainMob
+{
+
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  background-color: #F8F4EF;
+  font-family: poppins;
+}
+
 .navItem
 {
   align-self:center;
@@ -264,6 +277,24 @@ body
   justify-content: center;
 }
 
+.staffDivMob
+{
+  transition: all ease-in-out 0.1s;
+  width: 100%;
+  height: 100%; 
+  display: flex;
+  justify-content: center;
+}
+
+.staffImgMob
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
 .staffImg
 {
   align-self: center;
@@ -285,7 +316,6 @@ body
 .parallax {
   /* The image used */
 
-  margin-top: 80px;
   /* Set a specific height */
   min-height: 600px; 
 
@@ -295,6 +325,23 @@ body
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.parallaxMob {
+  /* The image used */
+
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  
+}
+
 
 .parallaxChild
 {
