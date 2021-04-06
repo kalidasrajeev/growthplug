@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+body
+{
+  font-family: poppins;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.navContain
+{
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  height: 75px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  position: fixed;
+  z-index: 10000;
+  background-color: #F8F4EF;
+  font-family: poppins;
+}
+
+.navItem
+{
+  align-self:center;
+  margin:20px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer; 
+  position: relative; 
+}
+
+.box-shadow { 
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+  0 1px 5px 0 rgba(0,0,0,0.12),
+  0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+  0 1px 5px 0 rgba(0,0,0,0.12),
+  0 3px 1px -2px rgba(0,0,0,0.2);
+  z-index: 1;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.dropdown-content div {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content div:hover {background-color: #ddd;color: #007259;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: #007259; border-bottom: 4px solid #007259;}
+
+.imageContainer
+{
+  width: 100%;
+  position: relative;
+}
+
+.text {
   color: white;
+  position: absolute;
+  font-size: 16px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
 }
 
-.App-link {
-  color: #61dafb;
+.booking
+{
+  position: fixed;
+  top: 100px;
+  z-index: 1000;
+  right: 10px;
+  color: white;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bookingbtn 
+{
+  font-family: poppins;
+  background-color: #007259;
+  color: #E8DCCB;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.bookingbtn:hover 
+{
+  background-color: #E8DCCB;
+  color: #007259;
+}
+
+.numberbtn
+{
+  font-family: poppins;
+  background-color: #E8DCCB;
+  color: #007259;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.numberbtn:hover 
+{
+  background-color: #007259;
+  color: #E8DCCB;
+}
+
+.introbtn
+{
+  width: 48%;
+  background-color: white;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.introbtn:hover
+{
+  color: #007259;
+  border: 2px solid #007259; 
+}
+
+.learnbtn
+{
+  
+  background-color: white;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 10px 40px 10px 40px;
+}
+
+.learnbtn:hover
+{
+  color: #007259;
+  border: 2px solid #007259; 
+}
+
+.serivceleftbtn
+{
+  
+  background-color: #F8F4EF;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #007259;
+  cursor: pointer;
+  width: 100%;
+  height: 72px;
+}
+
+.serivceleftbtn:hover
+{
+  filter: brightness(85%);
+}
+
+.serivcerightbtn
+{
+  
+  background-color: #C3D5CF4D;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  font-size: 18px;
+  font-weight: 600;
+  border: 2px solid #007259;
+  cursor: pointer;
+  width: 100%;
+  height: 72px;
+}
+
+.serivcerightbtn:hover
+{
+  filter: brightness(75%);
+}
+
+.staffDiv
+{
+  transition: all ease-in-out 0.1s;
+  width: 260px;
+  height: 260px; 
+  margin:20px;
+  display: flex;
+  justify-content: center;
+}
+
+.staffImg
+{
+  align-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+}
+
+.staffImg:hover
+{
+  width: 250px;
+  height: 250px;
+}
+
+
+.parallax {
+  /* The image used */
+
+  margin-top: 80px;
+  /* Set a specific height */
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxChild
+{
+  display: flex;
+  height: 600px;
+}
+
+.philo
+{
+  background-color: rgba(0,0,0,0.3);
+}
+
+.reviews
+{
+  margin-top: 80px;
+  background-color: #007259; 
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.reviewCard
+{
+  background-color: rgba(0,0,0,0.5);
+  font-family: poppins;
+}
+
+.slick-slide > div {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  margin-top: 50px;
+  margin: auto;
+  padding: 0px;
+  color: #E8DCCB;
+}
+
+.phonebtn
+{
+  
+  background-color: #E8DCCB;
+  outline: none;
+  border: none;
+  font-family: poppins;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px solid #007259;
+  cursor: pointer;
+  color: #007259;
+  padding: 10px 40px 10px 40px;
+}
+
+.phonebtn:hover
+{
+  color: #E8DCCB;
+  background-color: #007259;
+  border: 2px solid #E8DCCB; 
 }
