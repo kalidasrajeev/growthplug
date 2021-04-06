@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/growthplug/static/css/main.6f8242eb.chunk.css",
-    "main.js": "/growthplug/static/js/main.ec48dce4.chunk.js",
-    "main.js.map": "/growthplug/static/js/main.ec48dce4.chunk.js.map",
+    "main.js": "/growthplug/static/js/main.53c53d53.chunk.js",
+    "main.js.map": "/growthplug/static/js/main.53c53d53.chunk.js.map",
     "runtime-main.js": "/growthplug/static/js/runtime-main.d05700b4.js",
     "runtime-main.js.map": "/growthplug/static/js/runtime-main.d05700b4.js.map",
     "static/css/2.16d93ca1.chunk.css": "/growthplug/static/css/2.16d93ca1.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.16d93ca1.chunk.css",
     "static/js/2.101d1901.chunk.js",
     "static/css/main.6f8242eb.chunk.css",
-    "static/js/main.ec48dce4.chunk.js"
+    "static/js/main.53c53d53.chunk.js"
   ]
 }
