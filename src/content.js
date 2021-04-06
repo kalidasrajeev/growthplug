@@ -487,13 +487,13 @@ export default function Content() {
 
             <div style={{ marginTop: '60px', fontFamily: 'poppins' }}>
                 <div style={{ display: 'flex', justifyContent: 'center',color:'#007259',fontWeight:'500' }}>
-                    <div style={{ alignSelf: 'center',margin:'10px' }}>
+                    <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
                         Privacy Policy
                    </div>
-                   <div style={{ alignSelf: 'center',margin:'10px' }}>
+                   <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
                         Terms & Conditions
                    </div>
-                   <div style={{ alignSelf: 'center',margin:'10px' }}>
+                   <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
                         Accessibility Statement
                    </div>
                 </div>
@@ -501,7 +501,7 @@ export default function Content() {
 
             <div style={{ backgroundColor:'#007259',fontFamily: 'poppins' }}>
                 <div style={{ display: 'flex', justifyContent: 'center',color:'white',fontWeight:'500' }}>
-                    <div style={{ alignSelf: 'center',margin:'10px' }}>
+                    <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
                     © Copyright 2021 GrowthPlug, Inc
                    </div>
                    
