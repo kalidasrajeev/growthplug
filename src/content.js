@@ -58,17 +58,18 @@ export default function Content() {
                 </div>
             </div>
 
-            <div style={{ backgroundColor: '#f8f4ef' }}>
+            <div style={{ backgroundColor: '#f8f4ef',paddingBottom:'80px' }}>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '60px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500', fontFamily: 'poppins' }}>ABOUT DR. HU</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                     </div>
                 </div>
+                
                 <div style={{ display: 'flex', marginTop: '60px' }}>
                     <div style={{ width: '40%' }}>
-                        <div style={{ width: '100%' }}>
-                            <div style={{ padding: '40px 100px 40px 100px' }}>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: "center" }}>
+                            <div style={{ alignSelf: 'center' }}>
                                 <div style={{ height: '300px', width: '300px' }}>
                                     <img src='https://gp-assets-1.growthplug.com/website_files/2020/11/20/2034032.png' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 </div>
@@ -76,8 +77,8 @@ export default function Content() {
                         </div>
                     </div>
                     <div style={{ width: '60%' }}>
-                        <div style={{ width: '100%' }}>
-                            <div style={{ padding: '40px 100px 40px 100px', lineHeight: '28px', fontFamily: 'poppins' }}>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+                            <div style={{ lineHeight: '28px', fontFamily: 'poppins', width:'80%'}}>
                                 When the families of Winter Park, Florida look for a family dentist who provides comprehensive dental care, they turn to Dr. Hu. At Fay Hu DMD, patients receive preventive care, such as teeth cleanings and sealants, as well as restorative and cosmetic dental procedures, including oral surgery, dental crowns, and treatments for periodontal disease. She also provides orthodontic treatment through Invisalign and Fast Braces, a new innovative technique.<br /><br />
 
                                 Dr. Hu and her professional team work with patients to meet their dental needs while making them feel comfortable in the office. With excellent customer service and exceptional care, her dental office treats most oral health issues, including temporomandibular joint disorder (TMJ) and Sjögren's syndrome.<br /><br />
@@ -90,9 +91,9 @@ export default function Content() {
 
                                 Dr. Hu is a member of multiple medical organizations, including the American Dental Association, Florida Dental Association, and Greater Orlando Dental Association. Dr. Hu is also involved in a local chapter of Franks Spear Study Club.
                             </div>
-                            <div style={{ display: 'flex', justifyContent: 'center' }}>
-                                <input className='learnbtn' type='submit' value='Learn More' style={{ alignSelf: 'center' }} />
-                            </div>
+                        </div>
+                        <div style={{ display: 'flex', justifyContent: 'center',marginTop:'20px' }}>
+                            <input className='learnbtn' type='submit' value='Learn More' style={{ alignSelf: 'center' }} />
                         </div>
                     </div>
                 </div>
@@ -105,8 +106,8 @@ export default function Content() {
                 </div>
                 <div style={{ display: 'flex', marginTop: '60px' }}>
                     <div style={{ width: '40%' }}>
-                        <div style={{ width: '100%' }}>
-                            <div style={{ padding: '40px 100px 40px 100px' }}>
+                        <div style={{ width: '100%', display: 'flex', justifyContent: "center" }}>
+                            <div style={{ alignSelf: 'center' }}>
                                 <div style={{ height: '300px', width: '300px' }}>
                                     <img src='https://gp-assets-1.growthplug.com/website_files/2020/12/18/Dr._Ling_Li.jpg' style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                                 </div>
@@ -114,13 +115,12 @@ export default function Content() {
                         </div>
                     </div>
                     <div style={{ width: '60%' }}>
-                        <div style={{ width: '100%' }}>
-                            <div style={{ padding: '40px 100px 40px 100px', lineHeight: '28px', fontFamily: 'poppins' }}>
+                        <div style={{ width: '100%',display: 'flex', justifyContent: 'center' }}>
+                            <div style={{ width:'80%', lineHeight: '28px', fontFamily: 'poppins' }}>
                                 Dr. Li earned her Doctor of Dental Medicine (DMD) from the University of Florida’s College of Dentistry. She was also a graduate of Peking University’s School of Stomatology. Dr. Li has had more than 20 years of practicing clinical dentistry plus 5 years of scientific research experience on bone and hormone studies. She has performed many hard and soft tissue surgical procedures, including tooth and wisdom tooth extractions, bone grafting, periodontal surgeries, tissue regenerating, biopsy, as well as dental implants.<br /><br />
 
                                 In her downtime, Dr. Li enjoys travelling around the world
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -486,25 +486,25 @@ export default function Content() {
             />
 
             <div style={{ marginTop: '60px', fontFamily: 'poppins' }}>
-                <div style={{ display: 'flex', justifyContent: 'center',color:'#007259',fontWeight:'500' }}>
-                    <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', color: '#007259', fontWeight: '500' }}>
+                    <div style={{ alignSelf: 'center', margin: '10px', fontSize: '14px' }}>
                         Privacy Policy
                    </div>
-                   <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
+                    <div style={{ alignSelf: 'center', margin: '10px', fontSize: '14px' }}>
                         Terms & Conditions
                    </div>
-                   <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
+                    <div style={{ alignSelf: 'center', margin: '10px', fontSize: '14px' }}>
                         Accessibility Statement
                    </div>
                 </div>
             </div>
 
-            <div style={{ backgroundColor:'#007259',fontFamily: 'poppins' }}>
-                <div style={{ display: 'flex', justifyContent: 'center',color:'white',fontWeight:'500' }}>
-                    <div style={{ alignSelf: 'center',margin:'10px',fontSize:'14px' }}>
-                    © Copyright 2021 GrowthPlug, Inc
+            <div style={{ backgroundColor: '#007259', fontFamily: 'poppins' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', color: 'white', fontWeight: '500' }}>
+                    <div style={{ alignSelf: 'center', margin: '10px', fontSize: '14px' }}>
+                        © Copyright 2021 GrowthPlug, Inc
                    </div>
-                   
+
                 </div>
             </div>
         </div>
