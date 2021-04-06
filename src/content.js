@@ -32,10 +32,10 @@ export default function Content() {
 
                     <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                         <div style={{ alignSelf: 'center' }}>
-                            <div style={{ fontFamily: 'dancing script', fontSize: '120px', color: '#007259' }}>
-                                Fay Hu<span style={{ fontSize: '24px', fontFamily: 'poppins', position: 'relative', bottom: '25px', left: '10px', fontWeight: '500' }}>DMD</span>
+                            <div style={{ fontFamily: 'dancing script', fontSize: '110px', color: '#007259' }}>
+                                Fay Hu<span style={{ fontSize: '20px', fontFamily: 'poppins', position: 'relative', bottom: '25px', left: '10px', fontWeight: '500' }}>DMD</span>
                             </div>
-                            <div style={{ display: 'flex', justifyContent: 'center', fontSize: '22px', marginTop: '10px', color: '#007259', fontFamily: 'poppins', fontWeight: '500', backgroundColor: '#F8F4EF', padding: '6px' }}>
+                            <div style={{ display: 'flex', justifyContent: 'center', fontSize: '18px', marginTop: '10px', color: '#007259', fontFamily: 'poppins', fontWeight: '500', backgroundColor: '#F8F4EF', padding: '6px' }}>
                                 FAMILY DENTISTRY
                             </div>
                         </div>
@@ -46,9 +46,9 @@ export default function Content() {
             <div style={{ height: '500px' }}>
                 <div style={{ display: 'flex', justifyContent: 'center', height: '100%', width: '100%' }}>
                     <div style={{ alignSelf: 'center', fontFamily: 'poppins' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500' }}>NEW PATIENCE WELCOME</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500' }}>NEW PATIENCE WELCOME</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '22px', padding: '40px', fontWeight: '500', color: 'gray' }}>We want you to be our patient!</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '18px', padding: '40px', fontWeight: '500', color: 'gray' }}>We want you to be our patient!</div></div>
                         <div style={{ display: 'flex', width: '100%' }}>
                             <input className='introbtn' type='submit' value='Introduction' />
                             <div style={{ width: '4%' }}></div>
@@ -61,7 +61,7 @@ export default function Content() {
             <div style={{ backgroundColor: '#f8f4ef' }}>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '60px' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500', fontFamily: 'poppins' }}>ABOUT DR. HU</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500', fontFamily: 'poppins' }}>ABOUT DR. HU</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                     </div>
                 </div>
@@ -99,7 +99,7 @@ export default function Content() {
 
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '60px' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500', fontFamily: 'poppins' }}>ABOUT DR. LI</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500', fontFamily: 'poppins' }}>ABOUT DR. LI</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                     </div>
                 </div>
@@ -131,7 +131,7 @@ export default function Content() {
             <div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '60px' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500', fontFamily: 'poppins' }}>SERVICES</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500', fontFamily: 'poppins' }}>SERVICES</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                     </div>
                 </div>
@@ -209,7 +209,7 @@ export default function Content() {
             <div style={{ backgroundColor: '#f8f4ef', marginTop: '80px', fontFamily: 'poppins' }}>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <div style={{ alignSelf: 'center', marginTop: '80px' }}>
-                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500' }}>WE ARE HERE TO HELP YOU</div></div>
+                        <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500' }}>WE ARE HERE TO HELP YOU</div></div>
                         <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                     </div>
                 </div>
@@ -340,7 +340,7 @@ export default function Content() {
                 <div style={{ width: '60%', fontFamily: 'poppins' }}>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <div style={{ alignSelf: 'center', marginTop: '60px' }}>
-                            <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '36px', fontWeight: '500' }}>INSURANCE DETAILS</div></div>
+                            <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500' }}>INSURANCE DETAILS</div></div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
                             <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}><div style={{ textAlign: 'center', fontSize: '20px', fontWeight: '500' }}>Please contact our office for a complimentary insurance verification if you do not see your provider listed or would like a more detailed breakdown!</div></div>
                             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', marginTop: '20px' }}>
@@ -368,12 +368,12 @@ export default function Content() {
             <div className='reviews'>
                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
                     <div className='reviewCard' style={{ width: '80%', height: '80%', alignSelf: 'center' }}>
-                        <div style={{ color: 'white', fontSize: '36px', textAlign: 'center', marginTop: '20px' }}>WHAT OUR PATIENTS ARE SAYING.</div>
+                        <div style={{ color: 'white', fontSize: '32px', textAlign: 'center', marginTop: '20px' }}>WHAT OUR PATIENTS ARE SAYING.</div>
                         <Slider {...settings}>
                             <div>
                                 <div style={{ height: '300px', width: '100%', display: 'flex', justifyContent: 'center' }}>
                                     <div style={{ alignSelf: 'center' }}>
-                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '20px' }}>"Great place for all your dental needs. Dentist is very knowledgeable and kind to little kids who come, and the office staff are really nice!"</div>
+                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '16px' }}>"Great place for all your dental needs. Dentist is very knowledgeable and kind to little kids who come, and the office staff are really nice!"</div>
                                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ width: '60px', height: '4px', backgroundColor: 'white', marginTop: '30px' }}></div>
                                         </div>
@@ -396,7 +396,7 @@ export default function Content() {
                             <div>
                                 <div style={{ height: '300px', width: '100%', display: 'flex', justifyContent: 'center' }}>
                                     <div style={{ alignSelf: 'center' }}>
-                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '20px' }}>"I'm 63 years old and been going to Dentist all my short life since kindergarten. And I never had such a greatest time there ! The appointment was for not me but my two son's. The treatment they received was over the top! Thank you Iris,valanta,Dr Hu. Can't wait to go back Mr Marin."</div>
+                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '16px' }}>"I'm 63 years old and been going to Dentist all my short life since kindergarten. And I never had such a greatest time there ! The appointment was for not me but my two son's. The treatment they received was over the top! Thank you Iris,valanta,Dr Hu. Can't wait to go back Mr Marin."</div>
                                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ width: '60px', height: '4px', backgroundColor: 'white', marginTop: '30px' }}></div>
                                         </div>
@@ -419,7 +419,7 @@ export default function Content() {
                             <div>
                                 <div style={{ height: '300px', width: '100%', display: 'flex', justifyContent: 'center' }}>
                                     <div style={{ alignSelf: 'center' }}>
-                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '20px' }}>
+                                        <div style={{ width: '100%', textAlign: 'center', fontSize: '16px' }}>
                                             "Dr. Fay Hu has always done an excellent job for many years with all of my dental treatments as needed. I have no complaints. For those of us that don't like needles, she is able to give a shot that can't be felt and I've never experienced any pain receiving a filling, root canal, or a cap. She's..."</div>
                                         <div style={{ display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ width: '60px', height: '4px', backgroundColor: 'white', marginTop: '30px' }}></div>
@@ -449,7 +449,7 @@ export default function Content() {
                 <div style={{ display: 'flex' }}>
                     <div style={{ width: '50%' }}>
                         <div style={{ width: '100%' }}>
-                            <div style={{ fontFamily: 'poppins', color: '#007259', fontSize: '24px', fontWeight: '500', textAlign: 'center' }}>OFFICE HOURS</div>
+                            <div style={{ fontFamily: 'poppins', color: '#007259', fontSize: '20px', fontWeight: '500', textAlign: 'center' }}>OFFICE HOURS</div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ borderBottom: '1px solid #007259', fontFamily: 'poppins', color: 'black', fontWeight: '500', width: '80%' }}><div style={{ padding: '10px' }}>MONDAY<span style={{ float: 'right' }}>7:00 am - 2:00 pm</span></div></div></div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ borderBottom: '1px solid #007259', fontFamily: 'poppins', color: 'black', fontWeight: '500', width: '80%' }}><div style={{ padding: '10px' }}>TUESDAY<span style={{ float: 'right' }}>7:00 am - 2:00 pm</span></div></div></div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ borderBottom: '1px solid #007259', fontFamily: 'poppins', color: 'black', fontWeight: '500', width: '80%' }}><div style={{ padding: '10px' }}>WEDNESDAY<span style={{ float: 'right' }}>7:00 am - 2:00 pm</span></div></div></div>
@@ -462,7 +462,7 @@ export default function Content() {
 
                     <div style={{ width: '50%' }}>
                         <div style={{ width: '100%' }}>
-                            <div style={{ fontFamily: 'poppins', color: '#007259', fontSize: '24px', fontWeight: '500', textAlign: 'center' }}>LOCATION</div>
+                            <div style={{ fontFamily: 'poppins', color: '#007259', fontSize: '20px', fontWeight: '500', textAlign: 'center' }}>LOCATION</div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontFamily: 'poppins', color: 'black', fontWeight: '500', width: '40%', textAlign: 'center' }}><div style={{ padding: '10px', lineHeight: '30px' }}>Fay Hu General Dentistry
                             800 West Morse Blvd
                             Suite 3B Winter Park, FL 32789
