@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/growthplug/static/css/main.8d7dae8a.chunk.css",
+    "main.css": "/growthplug/static/css/main.a5315a65.chunk.css",
     "main.js": "/growthplug/static/js/main.919750c4.chunk.js",
     "main.js.map": "/growthplug/static/js/main.919750c4.chunk.js.map",
     "runtime-main.js": "/growthplug/static/js/runtime-main.d05700b4.js",
@@ -12,7 +12,7 @@
     "static/js/3.5317a79b.chunk.js.map": "/growthplug/static/js/3.5317a79b.chunk.js.map",
     "index.html": "/growthplug/index.html",
     "static/css/2.16d93ca1.chunk.css.map": "/growthplug/static/css/2.16d93ca1.chunk.css.map",
-    "static/css/main.8d7dae8a.chunk.css.map": "/growthplug/static/css/main.8d7dae8a.chunk.css.map",
+    "static/css/main.a5315a65.chunk.css.map": "/growthplug/static/css/main.a5315a65.chunk.css.map",
     "static/js/2.101d1901.chunk.js.LICENSE.txt": "/growthplug/static/js/2.101d1901.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/growthplug/static/media/slick.c94f7671.ttf"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.d05700b4.js",
     "static/css/2.16d93ca1.chunk.css",
     "static/js/2.101d1901.chunk.js",
-    "static/css/main.8d7dae8a.chunk.css",
+    "static/css/main.a5315a65.chunk.css",
     "static/js/main.919750c4.chunk.js"
   ]
 }
