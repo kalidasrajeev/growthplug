@@ -323,7 +323,7 @@ export default function Content() {
                         <div style={{ width: '40%', height: '100%', color: 'white' }}>
                             <div style={{ marginTop: '150px' }}>
                                 <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ alignSelf: 'center', fontSize: '32px' }}>Our Philosophy</div></div>
-                                <div style={{ textAlign: 'center', fontSize: '22px', border: '3px solid white', marginTop: '10px' }} className='philo'><div style={{ margin: '20px' }}>We are dedicated to providing the highest quality of dental care to our patients. Through excellence in dentistry and quality in relationships, we can have a positive influence on our patient's oral health, aesthetics, and self-esteem.</div></div>
+                                <div style={{ textAlign: 'center', fontSize: '18px', border: '3px solid white', marginTop: '10px' }} className='philo'><div style={{ margin: '20px' }}>We are dedicated to providing the highest quality of dental care to our patients. Through excellence in dentistry and quality in relationships, we can have a positive influence on our patient's oral health, aesthetics, and self-esteem.</div></div>
                             </div>
                         </div>
                         <div style={{ width: '30%' }}>
@@ -342,7 +342,7 @@ export default function Content() {
                         <div style={{ alignSelf: 'center', marginTop: '60px' }}>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ fontSize: '32px', fontWeight: '500' }}>INSURANCE DETAILS</div></div>
                             <div style={{ display: 'flex', justifyContent: 'center' }}><div style={{ marginTop: '8px', alignSelf: 'center', height: '4px', backgroundColor: '#007259', width: "120px" }}></div></div>
-                            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}><div style={{ textAlign: 'center', fontSize: '20px', fontWeight: '500' }}>Please contact our office for a complimentary insurance verification if you do not see your provider listed or would like a more detailed breakdown!</div></div>
+                            <div style={{ display: 'flex', justifyContent: 'center', marginTop: '50px' }}><div style={{ textAlign: 'center', fontSize: '16px', fontWeight: '500' }}>Please contact our office for a complimentary insurance verification if you do not see your provider listed or would like a more detailed breakdown!</div></div>
                             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', marginTop: '20px' }}>
                                 <img className='box-shadow' src='https://sa1s3optim.patientpop.com/assets/images/provider/photos/1771751.png' style={{ width: '110px', height: '70px', margin: '10px', padding: '10px' }} />
                                 <img className='box-shadow' src='https://sa1s3optim.patientpop.com/assets/images/provider/photos/1858337.jpg' style={{ width: '110px', height: '70px', margin: '10px', padding: '10px' }} />
