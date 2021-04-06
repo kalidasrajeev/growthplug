@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/growthplug/static/css/main.3c0db2d0.chunk.css",
-    "main.js": "/growthplug/static/js/main.37541fb8.chunk.js",
-    "main.js.map": "/growthplug/static/js/main.37541fb8.chunk.js.map",
-    "runtime-main.js": "/growthplug/static/js/runtime-main.d05700b4.js",
-    "runtime-main.js.map": "/growthplug/static/js/runtime-main.d05700b4.js.map",
+    "main.css": "/growthplug/static/css/main.2b79c9b3.chunk.css",
+    "main.js": "/growthplug/static/js/main.c2c5b55c.chunk.js",
+    "main.js.map": "/growthplug/static/js/main.c2c5b55c.chunk.js.map",
+    "runtime-main.js": "/growthplug/static/js/runtime-main.1aae7ccd.js",
+    "runtime-main.js.map": "/growthplug/static/js/runtime-main.1aae7ccd.js.map",
     "static/css/2.16d93ca1.chunk.css": "/growthplug/static/css/2.16d93ca1.chunk.css",
-    "static/js/2.101d1901.chunk.js": "/growthplug/static/js/2.101d1901.chunk.js",
-    "static/js/2.101d1901.chunk.js.map": "/growthplug/static/js/2.101d1901.chunk.js.map",
-    "static/js/3.5317a79b.chunk.js": "/growthplug/static/js/3.5317a79b.chunk.js",
-    "static/js/3.5317a79b.chunk.js.map": "/growthplug/static/js/3.5317a79b.chunk.js.map",
+    "static/js/2.cd80a957.chunk.js": "/growthplug/static/js/2.cd80a957.chunk.js",
+    "static/js/2.cd80a957.chunk.js.map": "/growthplug/static/js/2.cd80a957.chunk.js.map",
+    "static/js/3.a0213571.chunk.js": "/growthplug/static/js/3.a0213571.chunk.js",
+    "static/js/3.a0213571.chunk.js.map": "/growthplug/static/js/3.a0213571.chunk.js.map",
     "index.html": "/growthplug/index.html",
     "static/css/2.16d93ca1.chunk.css.map": "/growthplug/static/css/2.16d93ca1.chunk.css.map",
-    "static/css/main.3c0db2d0.chunk.css.map": "/growthplug/static/css/main.3c0db2d0.chunk.css.map",
-    "static/js/2.101d1901.chunk.js.LICENSE.txt": "/growthplug/static/js/2.101d1901.chunk.js.LICENSE.txt",
+    "static/css/main.2b79c9b3.chunk.css.map": "/growthplug/static/css/main.2b79c9b3.chunk.css.map",
+    "static/js/2.cd80a957.chunk.js.LICENSE.txt": "/growthplug/static/js/2.cd80a957.chunk.js.LICENSE.txt",
     "static/media/slick-theme.css": "/growthplug/static/media/slick.c94f7671.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.d05700b4.js",
+    "static/js/runtime-main.1aae7ccd.js",
     "static/css/2.16d93ca1.chunk.css",
-    "static/js/2.101d1901.chunk.js",
-    "static/css/main.3c0db2d0.chunk.css",
-    "static/js/main.37541fb8.chunk.js"
+    "static/js/2.cd80a957.chunk.js",
+    "static/css/main.2b79c9b3.chunk.css",
+    "static/js/main.c2c5b55c.chunk.js"
   ]
 }
